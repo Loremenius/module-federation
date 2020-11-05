@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from "react-dom";
+import { Typography } from "@material-ui/core";
 
 const App = () =>{
 
     return(
         <div className="App">
-            <h1>Hello World</h1>
+            <div className = "App">
+                <Typography variant="h2">
+                    Hello World
+                </Typography>
+            </div>
         </div>
     )
 }
